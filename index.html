@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Softball Weather</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <h1>We Smashin' Today!?!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Weather Report</a></li>
+                    <li><a href="#">Yelp Reviews</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+    		<div id="carousel" class="owl-carousel owl-theme">
+    		  <div><img src="img/bldGilbert1170x500.png"></div>
+    		  <div><img src="img/bldVegas1170x500.png"></div>
+    		  <div><img src="img/complex1170x500.png"></div>
+    		  <div><img src="img/fieldNight1170x500.png"></div>
+    		  <div><img src="img/fieldSnow1170x500.png"></div>
+              <div><img src="img/fieldStars1170x500.png"></div>
+              <div><img src="img/fieldStorm1170x500.png"></div>
+    		</div>
+        </section>     
+
+        <section class="weather">
+            <h2>WEATHER</h2>
+            <form id='city-and-state' action="#" method="GET">
+            <fieldset>
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required placeholder="Phoenix">
+
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" required placeholder="AZ">
+            
+                <button type="submit">Submit</button> 
+            </fieldset>
+        </section>
+
+        <section class="result">
+            <p class="city-result"></p>
+            <p class="state-result"></p>
+            <p class="temp-result"></p>
+            <p class="text-result"></p>
+        </section>
+
+    	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

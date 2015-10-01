@@ -1,0 +1,52 @@
+h1 {
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+	line-height: 25px;
+	display: block;
+}
+
+li a:hover {
+	background-color: yellow;
+	color: blue;
+}
+
+#carousel .owl-item div{
+  padding:5px;
+}
+#carousel .owl-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+fieldset {
+	display: inline-block;
+}
+
+.weather, .result {
+	text-align: center;
+}
+
+p {
+	display: inline-block;
+	font-size: 45px;
+}
